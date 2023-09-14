@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<schema xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 https://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+	<table name="btNewTest">
+		<field name="bID" type="integer">
+			<unsigned />
+			<key />
+		</field>
+		<field name="field1" type="text">
+			<default value="" />
+		</field>
+		<field name="field2" type="text">
+			<default value="" />
+		</field>
+		<field name="booleanfield" type="boolean">
+			<notnull/>
+		</field>
+		<field name="gltfID" type="integer">
+			<unsigned/>
+			<default value="0"/>
+		</field>
+		<field name="binaryID" type="integer">
+			<unsigned/>
+			<default value="0"/>
+		</field>
+	</table>
+</schema>

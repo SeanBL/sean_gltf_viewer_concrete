@@ -1,0 +1,29 @@
+{
+  "name": "threejs-with-controls",
+  "version": "1.0.0",
+  "description": "Three.js bundled with OrbitControls",
+  "type": "module",
+  "main": "./build/three.min.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Paul Masson",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.0",
+    "modified_three": "^0.153.2",
+    "rollup": "^3.15.0",
+    "three": "^0.152.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanBL/gltf_viewer_clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SeanBL/gltf_viewer_clone/issues"
+  },
+  "homepage": "https://github.com/SeanBL/gltf_viewer_clone#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0"
+  }
+}
